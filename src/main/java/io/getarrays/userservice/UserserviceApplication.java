@@ -22,7 +22,7 @@ public class UserserviceApplication {
 	public BCryptPasswordEncoder bCryptPasswordEncoder() {
 		return new BCryptPasswordEncoder();	
 	}
-	
+	//test
 	@Bean
 	CommandLineRunner run(AppUserService appUserService) {
 		
